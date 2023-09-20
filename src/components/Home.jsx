@@ -4,7 +4,7 @@ import Gallery from "./Gallery";
 
 const Home = () => {
   return (
-    <div className="py-4 md:py-8">
+    <div className="pt-16 ">
       <Gallery></Gallery>
     </div>
   );

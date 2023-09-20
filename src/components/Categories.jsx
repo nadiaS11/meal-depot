@@ -5,7 +5,7 @@ const Categories = () => {
   const { categories } = useLoaderData();
   console.log(categories);
   return (
-    <div>
+    <div className="pt-8">
       <div className="flex items-center justify-center py-4 md:py-8 flex-wrap">
         <Link
           to="/categories"
